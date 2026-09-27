@@ -1,5 +1,7 @@
 # Roda Phlex render
 
+[roda-phlex-render](https://rubygems.org/gems/roda-phlex-render) on RubyGems.
+
 Without the plugin
 ```ruby
 r.is "play" do
