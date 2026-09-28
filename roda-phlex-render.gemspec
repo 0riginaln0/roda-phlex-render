@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name        = "roda-phlex-render"
-  spec.version     = "1.0.0"
+  spec.version     = "1.0.1"
   spec.authors     = ["Dmitriy Ryzhenko"]
   spec.summary     = "Return Phlex views directly from Roda route blocks"
   spec.description = "A Roda plugin for rendering Phlex::HTML block results."
