@@ -41,12 +41,6 @@ class Roda
           :handle_phlex_block_result
       end
 
-      module ClassMethods
-        def phlex_result_classes
-          opts[:phlex_result_classes]
-        end
-      end
-
       module InstanceMethods
         def handle_phlex_block_result(result)
           @_response[RodaResponseHeaders::CONTENT_TYPE] ||=
