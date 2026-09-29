@@ -17,7 +17,7 @@ class Roda
     #
     # With the plugin:
     #
-    #   plugin :phlex
+    #   plugin :phlex_render
     #
     #   r.is "play" do
     #     View::Layout::Main.new(
